@@ -1,0 +1,36 @@
+/* globals.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Add styles for Leaflet map */
+.leaflet-container {
+  height: 100vh;
+}
+
+input[type="file"] {
+  margin: 10px;
+}
